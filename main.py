@@ -16,7 +16,6 @@ print(f"NEET Students: {neet_students}")
 # TODO: Find and Print All the Students appearing for any Entrance Exam
 all_students = cet | jee | neet
 print(f"All Students: {all_students}")
-
 # TODO: Find and Print Students appearing for All Entrance Exams
 all_exams = cet & jee & neet
 print(f"All Exams: {all_exams}")
